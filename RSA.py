@@ -101,7 +101,3 @@ class RSA():
         return message
 
 
-A = RSA(bites=10)
-A.make_keys()
-
-print(A.decrypt(A.encrypt(595758)))
